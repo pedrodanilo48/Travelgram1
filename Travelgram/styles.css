@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+body {
+    font-family: "Poppins", serif;
+    font-size: 14px;
+    font-style: normal;
+    color: #6C6C6C;
+  }
+h1 {
+    font-weight: bold;
+    font-size: 2rem;
+    color: black;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+}
+nav {
+    height: 5rem;
+    margin: 0rem 1rem 0rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: #F5F5F5;
+}
+nav a{
+    margin: 1.3rem 1rem;
+    color: #6C6C6C;
+    text-decoration: none;
+}
+nav #logo {
+    display: block;
+    justify-self: flex-start;
+    width: 162px;
+    height: 32px;
+    margin-top: 1rem;
+}
+nav .right {
+    display: flex;
+    align-items: center;
+}
+nav #profilePicture {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+main {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F5F5F5;
+    padding: 1rem;
+}
+main #profilePicture {
+    object-fit: cover;
+    height: 11rem;
+    width: 11rem;
+    border-radius: 50%;
+    margin: 0rem 2rem 0rem 1rem;
+}
+main .left {
+    display: flex;
+    height: 10.5rem;
+}
+main .left p{
+    width: 24rem;
+    margin-top: 1rem;
+}
+main .right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 1rem;
+}
+main .texto {
+    display: flex;
+    flex-direction: column;
+}
+main .right .map {
+    display: flex;
+    margin: 0.25rem;
+}
+main .right .airplane {
+    display: flex;
+    margin: 0.25rem;
+}
+main .right .pictures {
+    display: flex;
+    margin: 0.25rem;
+}
+main .right p {
+    margin: 0.25rem 7rem 0.25rem  0.5rem;
+}
+section.images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 32px; 
+    gap: 24px 
+}
+section img{
+    width: calc(25% - 24px); /* 4 images per row, accounting for gap */
+    margin-bottom: 24px;  /* Ensure images maintain aspect ratio */
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+}
+footer h3 {
+    font-size: 14px;
+    font-weight: normal;
+}
+footer.links {
+    justify-content: center;
+    
+}
+footer a{
+    margin-left: 1rem;
+}
